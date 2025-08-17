@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+/* style the app to look nice */ 
+
+input {
+    width: 100%; /* 100% + 10px + 10px */
+    padding: 10px;
+    border: 1px solid rgb(190, 192, 239);
+    box-sizing: border-box; /* makes full width accounts for paddings w/o overflow */
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: 1px solid rgb(190, 192, 239);
+    background: rgb(227, 228, 245);
+    color: rgb(29, 43, 105);
+    padding: 10px 20px;
+}
+
+#delete-btn {
+    background: rgb(62, 76, 137); 
+    color: rgb(227, 228, 245);
+    border: 1px solid rgb(22, 25, 106);
+
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+li {
+    margin-top: 5px;
+}
+
+li a {
+    color: rgb(29, 43, 105);
+}
